@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_hys4oINeEeaeg-TGioBAIA" elementId="org.eclipse.e4.ide.application" bindingContexts="_hys4qYNeEeaeg-TGioBAIA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_hys4oYNeEeaeg-TGioBAIA" label="com.example.project.treeviewer" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_lQFlgINeEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_l4GAsINeEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_mbfosINeEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_pDuPMINeEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="_pa1HoINeEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.part.todo" contributionURI="bundleclass://com.example.project.treeviewer/com.example.project.treeviewer.parts.TodoTreePart" label="ToDo">
+              <menus xsi:type="menu:PopupMenu" xmi:id="_8PUPcINgEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.popupmenu.table" label="Table Menu">
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_P1C44INhEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.handledmenuitem.newproject" label="New project" command="_R-PaAINhEeaeg-TGioBAIA"/>
+              </menus>
+              <menus xsi:type="menu:PopupMenu" xmi:id="_DZTFoIQsEean1bbjNC8gDA" elementId="com.example.project.treeviewer.popupmenu.filecontextmenu" label="File context menu">
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_HhMIEIQsEean1bbjNC8gDA" elementId="com.example.project.treeviewer.handledmenuitem.openfile" label="Open file" command="_MbrFEIQsEean1bbjNC8gDA"/>
+              </menus>
+              <menus xsi:type="menu:PopupMenu" xmi:id="_ygxQAIQwEean1bbjNC8gDA" elementId="com.example.project.treeviewer.popupmenu.projectcontextmenu.openproject" label="Project context menu open">
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_0IKroIQwEean1bbjNC8gDA" elementId="com.example.project.treeviewer.handledmenuitem.openproject" label="Open project" command="_2HhUQIQwEean1bbjNC8gDA"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_A3mlkIi5EeamXvDsufjwBw" elementId="com.example.project.treeviewer.handledmenuitem.deleteproject" label="Delete project" command="_zpJAMIi4EeamXvDsufjwBw"/>
+              </menus>
+              <menus xsi:type="menu:PopupMenu" xmi:id="_wIFOQIaJEeaqvZxiFsuuCA" elementId="com.example.project.treeviewer.popupmenu.projectcontextmenu.closeproject" label="Project context menu close">
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_1snN0IaJEeaqvZxiFsuuCA" elementId="com.example.project.treeviewer.handledmenuitem.closeproject" label="Close project" command="_3qCj0IaJEeaqvZxiFsuuCA"/>
+                <children xsi:type="menu:HandledMenuItem" xmi:id="_Fju9gIi5EeamXvDsufjwBw" elementId="com.example.project.treeviewer.handledmenuitem.deleteproject" label="Delete project" command="_zpJAMIi4EeamXvDsufjwBw"/>
+              </menus>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
+  <handlers xmi:id="_TK0h4INhEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.handler.newproject" contributionURI="bundleclass://com.example.project.treeviewer/com.example.project.treeviewer.handlers.NewProjectHandler" command="_R-PaAINhEeaeg-TGioBAIA"/>
+  <handlers xmi:id="_NzM4sIQsEean1bbjNC8gDA" elementId="com.example.project.treeviewer.handler.0" contributionURI="bundleclass://com.example.project.treeviewer/com.example.project.treeviewer.handlers.OpenFile" command="_MbrFEIQsEean1bbjNC8gDA"/>
+  <handlers xmi:id="_3bGcAIQwEean1bbjNC8gDA" elementId="com.example.project.treeviewer.handler.openproject" contributionURI="bundleclass://com.example.project.treeviewer/com.example.project.treeviewer.handlers.OpenProjectHandler" command="_2HhUQIQwEean1bbjNC8gDA"/>
+  <handlers xmi:id="_5OqYQIaJEeaqvZxiFsuuCA" elementId="com.example.project.treeviewer.handler.1" contributionURI="bundleclass://com.example.project.treeviewer/com.example.project.treeviewer.handlers.CloseProjectHandler" command="_3qCj0IaJEeaqvZxiFsuuCA"/>
+  <handlers xmi:id="_1zOSIIi4EeamXvDsufjwBw" elementId="com.example.project.treeviewer.handler.deleteproject" contributionURI="bundleclass://com.example.project.treeviewer/com.example.project.treeviewer.handlers.DeleteProjectHandler" command="_zpJAMIi4EeamXvDsufjwBw"/>
+  <rootContext xmi:id="_hys4qYNeEeaeg-TGioBAIA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_hys4qoNeEeaeg-TGioBAIA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_hys4q4NeEeaeg-TGioBAIA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_R-PaAINhEeaeg-TGioBAIA" elementId="com.example.project.treeviewer.command.newproject" commandName="New Project"/>
+  <commands xmi:id="_MbrFEIQsEean1bbjNC8gDA" elementId="com.example.project.treeviewer.command.openfile" commandName="Open file"/>
+  <commands xmi:id="_2HhUQIQwEean1bbjNC8gDA" elementId="com.example.project.treeviewer.command.openproject" commandName="Open project"/>
+  <commands xmi:id="_3qCj0IaJEeaqvZxiFsuuCA" elementId="com.example.project.treeviewer.command.closeproject" commandName="Close project"/>
+  <commands xmi:id="_zpJAMIi4EeamXvDsufjwBw" elementId="com.example.project.treeviewer.command.deleteproject" commandName="Delete project"/>
+  <addons xmi:id="_hys4ooNeEeaeg-TGioBAIA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_hys4o4NeEeaeg-TGioBAIA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_hys4pINeEeaeg-TGioBAIA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_hys4pYNeEeaeg-TGioBAIA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_hys4poNeEeaeg-TGioBAIA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_hys4p4NeEeaeg-TGioBAIA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_hys4qINeEeaeg-TGioBAIA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
