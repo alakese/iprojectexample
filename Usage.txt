@@ -1,0 +1,11 @@
+There are no menus or toolbar.
+
+Use the right click to :
+- create a new project (click on an empty area on the tree)
+- open and close an existing project (click above the project item)
+- delete an existing project (click above the project item)
+
+Sources :
+- Vogella 
+- http://www.programcreek.com/java-api-examples/org.eclipse.core.resources.IProject
+- http://eclipsesource.com/blogs/2012/05/10/eclipse-4-final-sprint-part-1-the-e4-application-model/
